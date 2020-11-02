@@ -28,7 +28,7 @@ setuptools.setup(
     auhtor="Adrian Ćwiek",
     author_email="adrcwiek@gmail.com",
     install_requires=[
-        "psycopg2"
+        "psycopg2>=2.8.3"
     ],
     classifiers=[
         "Development Status :: 3 - Alpha",

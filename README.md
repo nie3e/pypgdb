@@ -14,7 +14,7 @@ pgdb.logger.setLevel(logging.INFO)
 res = db.query("SELECT 'hello world'::TEXT, NOW()")
 ```
 ### Installation
-pypgdb requires psycopg2 to run.
+pypgdb requires psycopg2>=2.8.3 to run.
 
 pip installation:
 ```sh
