@@ -25,7 +25,7 @@ setuptools.setup(
     description="A wrapper around psycopg2",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    auhtor="Adrian Ćwiek",
+    author="Adrian Ćwiek",
     author_email="adrcwiek@gmail.com",
     install_requires=[
         "psycopg2>=2.8.3"
